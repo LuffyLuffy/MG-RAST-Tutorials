@@ -346,7 +346,7 @@ split.screen(c(2,1))
 screen(1)
 hist(my_counts.matrix, main="distribution of original raw values")
 screen(2)
-hist(my_counts.filtered.matrix.DESeq_blind.PREPROCESSED, main="distribution of values after filter and norm")
+hist(filtered_counts.txt.DESeq_blind.PREPROCESSED, main="distribution of values after filter and norm")
 # Looks like we have a bimodal ditribution of abundance values --- but that's a story for another day ...
 ############################################################################################################################
 ############################################################################################################################
@@ -403,7 +403,7 @@ MGRAST_plot_pco(file_in="filtered_counts.txt.DESeq_blind.PREPROCESSED.txt", dist
 # filtered_counts.txt.DESeq_blind.PREPROCESSED.txt.euclidean.DIST # the distance/dissimilarity matrix used to compute the PCoA
 
 # With Bray_curtis
-MGRAST_plot_pco(file_in="filtered_counts.txt.DESeq_blind.PREPROCESSED.txt", dist_method="euclidean")
+MGRAST_plot_pco(file_in="filtered_counts.txt.DESeq_blind.PREPROCESSED.txt", dist_method="bray-curtis")
 # creates file: 
 # filtered_counts.txt.DESeq_blind.PREPROCESSED.txt.euclidean.PCoA # the PCoA results
 # filtered_counts.txt.DESeq_blind.PREPROCESSED.txt.euclidean.DIST # the distance/dissimilarity matrix used to compute the PCoA
@@ -526,6 +526,10 @@ heatmap_dendrogram.from_file(file_in="FDR_subselected_data.txt",
 # heatmap_legend.png
 # FDR_subselected_data.txt.HD_sorted.txt # as above, flat file with reordered data (you'll be able to see the row names for the figure here)
 # FDR_subselected_data.txt.HD.png # image
+
+# To see a list of the most significantly differenciated subsystems (from the subselection above):
+rownames(subselected_data)
+
 
 ############################################################################################################################
 ############################################################################################################################
