@@ -1,0 +1,6 @@
+sequence id	m5nr id (md5sum)	dna sequence	semicolon separated list of annotations
+Status: 500
+Access-control-allow-origin: *
+Content-Type: text/plain; charset=UTF-8
+
+{"ERROR":"resource request failed\nUnavailable: code=1000 [Unavailable exception] message=\"Cannot achieve consistency level ONE\" info={'required_replicas': 1, 'alive_replicas': 0, 'consistency': 'ONE'} at line 18\n\n"}
