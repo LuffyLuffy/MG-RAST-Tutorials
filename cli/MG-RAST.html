@@ -167,6 +167,37 @@ MathJax.Hub.Config({
 	<body>
 		<div tabindex="-1" id="notebook" class="border-box-sizing">
 			<div class="container" id="notebook-container">
+				
+				<div>
+					<h3>Setup</h3>
+					
+					<p>This page http://tinyurl.com/orchywx</p>
+					
+					<p>If you have git installed you can clone MG-RAST-Tools to your laptop: <b>git clone https://github.com/MG-RAST/MG-RAST-Tools.git</b> or go to the <a href="https://github.com/MG-RAST/MG-RAST-Tools">GitHub page</a> (https://github.com/MG-RAST/MG-RAST-Tools) and download as zip archive. <br>
+						
+					</p>
+					
+					
+					<p>You have to set some environment variables, copy and paste the lines below into your terminal. Substitute ${TOOLS} with the path to the Tools repository.
+						
+					</p>
+					<pre>
+						
+
+TOOLS=~/MG-RAST-Tools
+LIB=tools/lib
+BIN=tools/bin
+
+# adding lib to python and perl env
+LIB_PATH=$DIR/$LIB
+
+export PYTHONPATH=$PYTHONPATH:$LIB_PATH
+export PERL5LIB=$PERL5LIB:$LIB_PATH
+export KB_PERL_PATH=$LIB_PATH
+PATH=${PATH}:${BIN}
+
+					</pre>
+				<div>
 				<div class="cell border-box-sizing text_cell rendered">
 					<div class="prompt input_prompt"></div>
 					<div class="inner_cell">
@@ -5502,7 +5533,7 @@ mgm4447903.3|GF8803K02FZ63L 00868f3c929c8e663d05ac4d2c0bf8b6    AGACTTGCACTCACTT
 			<div class="output_subarea output_stream output_stdout output_text">
 				<h2>phyloseq</h2>
 				
-				<p>Create a phyloseq object from a MG-RAST biom file.</p>
+				<p>Create a phyloseq object from a MG-RAST biom file. For this you need phyloseq installed and the library loaded in R. Copy and paste the following lines into your R console:</p>
 				
 			<pre>	
 				
