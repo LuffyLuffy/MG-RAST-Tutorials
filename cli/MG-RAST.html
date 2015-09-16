@@ -5483,13 +5483,59 @@ mgm4447903.3|GF8803K02FZ63L 00868f3c929c8e663d05ac4d2c0bf8b6    AGACTTGCACTCACTT
 								    <div class="input_area">
 								<div class=" highlight hl-ipython2"><pre> 
 								</pre></div>
-								
-								
 							</div>
 						</div>
-					</div>
+					</div>	
 				</div>
+				
+				
+				
+				
+				
+				
+				
+				
 			</div>
+			
+			
+			<div class="output_area"><div class="prompt"></div>
+			<div class="output_subarea output_stream output_stdout output_text">
+				<h2>phyloseq</h2>
+				
+				<p>Create a phyloseq object from a MG-RAST biom file.</p>
+				
+			<pre>	
+				
+				
+# load MG-RAST biom file
+greengenes = read_biom("~/Development/data/matrix.test.biom")
+
+# columns
+observation_metadata(greengenes)
+# there are 5 levels
+colnames(observation_metadata(greengenes))
+
+# Create pyloseq object
+otumatrix = as(biom_data(greengenes), "matrix")
+OTU = otu_table(otumatrix, taxa_are_rows=TRUE)
+taxmat = as.matrix(observation_metadata(x), rownames.force=TRUE)
+TAX = tax_table(taxmat)
+
+physeq = phyloseq(OTU, TAX)
+
+# Basic data access
+taxa_names(physeq)
+
+# Alpha Diversity
+plot_richness(physeq) + geom_boxplot()
+
+
+
+			</pre>
+			</div>
+			</div>
+			</div>
+			
 		</div>
 	</body>
 </html>
