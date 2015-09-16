@@ -184,17 +184,17 @@ MathJax.Hub.Config({
 					<pre>
 						
 
-TOOLS=~/MG-RAST-Tools
+TOOLS=/local/tools/MG-RAST-Tools/
+
 LIB=tools/lib
 BIN=tools/bin
 
 # adding lib to python and perl env
-LIB_PATH=$DIR/$LIB
 
-export PYTHONPATH=$PYTHONPATH:$LIB_PATH
-export PERL5LIB=$PERL5LIB:$LIB_PATH
-export KB_PERL_PATH=$LIB_PATH
-PATH=${PATH}:${BIN}
+export PYTHONPATH=$PYTHONPATH:${TOOLS}/$LIB
+export PERL5LIB=$PERL5LIB:${TOOLS}/${LIB}
+export KB_PERL_PATH=${TOOLS}/${LIB}
+PATH=${PATH}:${TOOLS}/${BIN}
 
 					</pre>
 				<div>
