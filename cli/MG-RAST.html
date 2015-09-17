@@ -1739,11 +1739,30 @@ taxa_names(physeq)
 # Alpha Diversity
 plot_richness(physeq) + geom_boxplot()
 
-
+# Ordination
+plot_ordination( physeq , ordinate(physeq , method = "MDS" , distance ="bray") , color = "library.data.seq_center" ) + geom_point(size=5)
 
 			</pre>
 			
-<img src="AlphaDiversity.png">			
+			<img src="AlphaDiversity.png">			
+
+			<pre>
+# Ordination
+plot_ordination( physeq , ordinate(physeq , method = "MDS" , distance ="bray") , color = "library.data.seq_center" ) + geom_point(size=5)
+			</pre>
+						
+			<img src="MDS.png">
+
+			<pre>plot_ordination( physeq , ordinate(physeq , method = "PCoA" , distance ="euclidean") , color = "library.data.seq_center" ) + geom_point(size=5)</pre>
+
+			<img src="PCoA-Euclidian.png">
+			
+			<pre>#List of all sample variables
+sample_variables(physeq)
+
+# plot and add label
+plot_ordination( physeq , ordinate(physeq , method = "PCoA" , distance ="euclidean") , color = "library.data.seq_center" , type="samples", label = "X.SampleID") + geom_point(size=2)
+
 			</div>
 			</div>
 			</div>
