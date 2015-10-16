@@ -1,0 +1,17 @@
+MG-RAST ID	Metagenome Name	bp Count	Sequence Count	Biome	Feature	Material	Location	Country	Coordinates	Sequence Type	Sequence Method
+4575333.3	AR3, 16S	29,346,990	326,768	Tropical and subtropical moist broadleaf forest biome	slope	bulk soil	Misiones, Argentina	USA	-26.733, -54.683	AmpliconGene	illumina
+4575334.3	BZ1, 16S	40,100,046	446,261	Temperate coniferous forest biome	slope	bulk soil	Bonanza Creek LTER, Alaska, USA	USA	64.8, -148.25	AmpliconGene	illumina
+4575335.3	CL1, 16S	42,320,108	471,703	Temperate coniferous forest biome	slope	bulk soil	Calhoun Experimental Forest, South Carolina, USA	USA	34.617, -81.667	AmpliconGene	illumina
+4575336.3	DF1, 16S	37,000,941	411,893	Temperate coniferous forest biome	slope	bulk soil	Duke Forest, North Carolina, USA	USA	35.967, -79.083	AmpliconGene	illumina
+4575337.3	EB017, 16S	16,419,900	183,037	Deserts and xeric shrubland biome	slope	bulk soil	Garwood Valley, Antarctica	USA	-78.03, 163.873283333333	AmpliconGene	illumina
+4575338.3	EB019, 16S	15,718,668	175,897	Deserts and xeric shrubland biome	slope	bulk soil	Lake Bonney Valley, Antarctica	USA	-77.725, 162.313	AmpliconGene	illumina
+4575339.3	EB020, 16S	43,494,686	484,482	Deserts and xeric shrubland biome	slope	bulk soil	Lake Fryxell Valley, Antarctica	USA	-77.608, 163.249	AmpliconGene	illumina
+4575340.3	EB021, 16S	37,756,190	422,002	Deserts and xeric shrubland biome	slope	bulk soil	Lake Hoare Valley, Antarctica	USA	-77.6375, 162.887	AmpliconGene	illumina
+4575341.3	EB024, 16S	17,975,930	200,461	Deserts and xeric shrubland biome	slope	bulk soil	Wright Valley, Antarctica	USA	-77.527, 161.702	AmpliconGene	illumina
+4575342.3	EB026, 16S	14,610,298	162,709	Deserts and xeric shrubland biome	slope	bulk soil	Lake Bonney Valley, Antarctica	USA	-77.725, 162.311	AmpliconGene	illumina
+4575343.3	KP1, 16S	29,839,449	332,356	Temperate grasslands, savannas, and shrubland biome	slope	bulk soil	Konza Prairie LTER, Kansas, USA	USA	39.1, -96.6	AmpliconGene	illumina
+4575344.3	MD3, 16S	56,766,917	632,483	Deserts and xeric shrubland biome	slope	bulk soil	Mojave Desert, California, USA	USA	34.9, -115.65	AmpliconGene	illumina
+4575345.3	PE6, 16S	38,625,285	430,052	Tropical and subtropical moist broadleaf forest biome	slope	bulk soil	Manu National Park, Peru	USA	-12.633, -71.233	AmpliconGene	illumina
+4575346.3	SF2, 16S	40,456,178	450,620	Deserts and xeric shrubland biome	slope	bulk soil	Chihuahuan Desert, Galisteo, New Mexico, USA	USA	35.383, -105.933	AmpliconGene	illumina
+4575347.3	SV1, 16S	24,549,866	273,632	Deserts and xeric shrubland biome	slope	bulk soil	Chihuahuan Desert, Sevilleta LTER, New Mexico, USA	USA	34.333, -106.733	AmpliconGene	illumina
+4575348.3	TL1, 16S	14,207,088	158,077	Tundra biome	slope	bulk soil	Toolik Lake LTER, Alaska, USA	USA	68.633, -149.583	AmpliconGene	illumina

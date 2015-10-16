@@ -1,0 +1,17 @@
+MG-RAST ID	Metagenome Name	bp Count	Sequence Count	Biome	Feature	Material	Location	Country	Coordinates	Sequence Type
+4477904.3	EB024_r1	1,086,364,600	10,863,646	Deserts and xeric shrubland biome	slope	bulk soil	Wright Valley, Antarctica	USA	-77.527, 161.702	WGS
+4477903.3	EB021_r1	654,368,100	6,543,681	Deserts and xeric shrubland biome	slope	bulk soil	Lake Hoare Valley, Antarctica	USA	-77.6375, 162.887	WGS
+4477902.3	EB020_r1	944,668,400	9,446,684	Deserts and xeric shrubland biome	slope	bulk soil	Lake Fryxell Valley, Antarctica	USA	-77.608, 163.249	WGS
+4477901.3	EB019_r1	545,464,000	5,454,640	Deserts and xeric shrubland biome	slope	bulk soil	Lake Bonney Valley, Antarctica	USA	-77.725, 162.313	WGS
+4477900.3	EB017_r1	794,708,600	7,947,086	Deserts and xeric shrubland biome	slope	bulk soil	Garwood Valley, Antarctica	USA	-78.03, 163.873283333333	WGS
+4477899.3	DF1_r1	389,004,400	3,890,044	Temperate coniferous forest biome	slope	bulk soil	Duke Forest, North Carolina, USA	USA	35.967, -79.083	WGS
+4477877.3	CL1_r1	640,294,000	6,402,940	Temperate coniferous forest biome	slope	bulk soil	Calhoun Experimental Forest, South Carolina, USA	USA	34.617, -81.667	WGS
+4477876.3	BZ1_r1	654,390,300	6,543,903	Temperate coniferous forest biome	slope	bulk soil	Bonanza Creek LTER, Alaska, USA	USA	64.8, -148.25	WGS
+4477875.3	AR3_r1	523,535,200	5,235,352	Tropical and subtropical moist broadleaf forest biome	slope	bulk soil	Misiones, Argentina	USA	-26.733, -54.683	WGS
+4477874.3	TL1_r1	601,197,100	6,011,971	Tundra biome	slope	bulk soil	Toolik Lake LTER, Alaska, USA	USA	68.633, -149.583	WGS
+4477873.3	SV1_r1	1,112,254,600	11,122,546	Deserts and xeric shrubland biome	slope	bulk soil	Chihuahuan Desert, Sevilleta LTER, New Mexico, USA	USA	34.333, -106.733	WGS
+4477872.3	SF2_r1	680,545,600	6,805,456	Deserts and xeric shrubland biome	slope	bulk soil	Chihuahuan Desert, Galisteo, New Mexico, USA	USA	35.383, -105.933	WGS
+4477807.3	PE6_r1	920,666,200	9,206,662	Tropical and subtropical moist broadleaf forest biome	slope	bulk soil	Manu National Park, Peru	USA	-12.633, -71.233	WGS
+4477805.3	MD3_r1	589,949,700	5,899,497	Deserts and xeric shrubland biome	slope	bulk soil	Mojave Desert, California, USA	USA	34.9, -115.65	WGS
+4477804.3	KP1_r1	534,883,200	5,348,832	Temperate grasslands, savannas, and shrubland biome	slope	bulk soil	Konza Prairie LTER, Kansas, USA	USA	39.1, -96.6	WGS
+4477803.3	EB026_read1	595,168,400	5,951,684	Deserts and xeric shrubland biome	slope	bulk soil	Lake Bonney Valley, Antarctica	USA	-77.725, 162.311	WGS
